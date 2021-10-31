@@ -1,0 +1,61 @@
+nav {
+  background-color: black;
+}
+
+body {
+  min-height: 1000px;
+  background-color: rgb(10, 10, 10);
+  display: grid;
+}
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+.nav-link,
+.card-text,
+#masak {
+  font-family: "San Francisco";
+  font-weight: 400;
+}
+
+.navbar-brand,
+h1,
+h3 {
+  font-family: "San Francisco";
+  font-weight: 500;
+  color: white;
+}
+
+.jumbotron {
+  margin-top: 2rem;
+}
+
+section {
+  padding-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.card:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
+}
+.card {
+  transition: transform 0.2s;
+  background-color: black;
+}
+.card-text,
+#masak {
+  color: white;
+}
+#masak1 {
+  position: relative;
+  left: 120px;
+}

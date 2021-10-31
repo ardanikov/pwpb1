@@ -1,0 +1,81 @@
+body {
+  min-height: auto;
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+p,
+h2,
+label,
+button {
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+.p-modal {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#modalheader {
+  font-family: "Noto Sans Display";
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+#pmodal {
+  font-family: "Noto Sans Display";
+}
+#games {
+  background-color: #e2edff;
+}
+
+#isimodal {
+  padding: 1rem 1rem;
+}
+
+#fotoku:hover {
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari 3-8 */
+  transform: scale(1.15);
+}
+
+#fotoku,
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
+}
+
+section {
+  padding-top: 5rem;
+}
+
+nav,
+footer,
+.btn-success {
+  background-color: #2b6777;
+}
+
+#about,
+#contact,
+.card-body,
+.rounded-circle {
+  background-color: #c8d8e4;
+}
+
+.form-control {
+  border: 1px #2b6777;
+  background-color: #e2edff;
+}

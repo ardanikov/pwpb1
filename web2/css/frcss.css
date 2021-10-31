@@ -1,0 +1,60 @@
+nav {
+  background-color: black;
+}
+body {
+  min-height: auto;
+  background-color: rgb(10, 10, 10);
+  display: grid;
+}
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+.nav-link,
+p,
+a {
+  font-family: "San Francisco";
+  font-weight: 400;
+  color: white;
+}
+
+.navbar-brand,
+.display-3 {
+  font-family: "San Francisco";
+  font-weight: 500;
+  color: white;
+}
+.jumbotron {
+  margin-top: 2rem;
+}
+section {
+  padding-top: 3rem;
+}
+.lead {
+  margin-left: 3rem;
+}
+#fotoku {
+  left: 200px;
+  top: 80px;
+}
+.about {
+  left: 90px;
+}
+.deskripsi {
+  position: absolute;
+  left: 730px;
+  top: 200px;
+}
+.bi {
+  color: white;
+}
+a {
+  text-decoration: none;
+}
